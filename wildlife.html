@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>SC Aware: Wildlife</title>
+        <link href="stylesheets/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="stylesheets/owl.carousel.min.css" rel="stylesheet">
+        <link href="stylesheets/owl.theme.default.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>
+             <a class="title" href="index.html"> SC Aware 
+        </h1>
+    
+        <h2>
+         
+                <a href="crime.html"> Crime & Poverty</a>
+                <a href="climate.html"> Climate</a>
+                <a href="education.html"> Education</a>   
+                <a href="wildlife.html"> Wildlife</a>     
+                <a href="infrastructure.html"> Infrastructure </a>        
+                
+        </h2>
+
+        <p class = "subheader"> 
+            For all the hunters,  fishers, and biologists of the world, South Carolina is the worst of the best places to visit to hunt/catch game or observe wildlife. 
+            While there are a respectable number of species to hunt, fish, and watch across the state,
+            most of the more interesting species are walking a thin line between threatened and outright extinct.
+            Take for instance the Loggerhead Sea Turtle, or Caretta caretta, which is listed as “Threatened” on the endangered species list.
+            Once abundant across Atlantic, Pacific, and Indian oceans, the Loggerhead population has been on a steady decline due to incidents with fishing boats,
+            loss of necessary nesting areas due to expansion of beach resorts, and, above all, ocean pollution.
+            In terms of terrestrial animals, the American Peregrine Falcon, known scientifically as Falco peregrinus anatum,
+            is classified as “Endangered” by the South Carolina Department of Natural Resources due to illegal hunting and interference by humans with nesting.
+            Known for its incredibly fast diving speed- the fastest recorded dives exceed 200 mph- the Peregrine Falcon is an exceptionally incredible specimen of what nature has to offer,
+            yet it has been hunted to near extinction in South Carolina for its feathers. Such magnificent animals that don’t directly interfere with human life,
+            yet suffer as a result of human self-indulgence and lack of respect for nature. 
+        </p>
+
+        <div class="container">
+        
+            <div class="owl-carousel owl-theme">
+                <div><img src="images/squirrel.png" alt="Dummy image"></div>
+                <div><img src="images/turtle.png" alt="Dummy image"></div>
+                <div><img src="images/falcon.png" alt="Dummy image"></div>
+                <div><img src="images/fox.png" alt="Dummy image"></div>
+                <div><img src="images/croc.png" alt="Dummy image"></div>
+            </div>
+            
+        </div>
+      
+        <!-- first load jquery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      
+        <!-- owl carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        <script>
+          $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                dots: true,
+                items: 1,
+                loop: true,
+                margin: 10,
+                nav: true
+            })
+          });
+        </script>
+                    
+    
+        
+    </body>
+
+</html>
